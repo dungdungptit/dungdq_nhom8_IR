@@ -231,7 +231,7 @@ python tools/train.py --cfg experiments/imagenette/hrnet_w18_imagenette.yaml
 ## 🧪 Evaluation
 
 ```bash
-python tools/valid.py --cfg experiments/imagenette/hrnet_w18_imagenette.yaml   TEST.MODEL_FILE output/imagenette/hrnet_w18/best.pth
+python tools/valid.py --cfg experiments/imagenette/hrnet_w18_imagenette.yaml --testModel output/imagenette2-160/hrnet_w18_imagenette/model_best.pth.tar
 ```
 
 ## 📂 Folder Structure
